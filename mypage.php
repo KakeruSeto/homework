@@ -30,9 +30,6 @@
         <div class="header-right">
           <a href="./logout.php" class="login">ログアウト</a>
         </div>
-        <!-- <div class="header-right">
-          <a href="./search.php" class="login">検索</a>
-        </div> -->
         <div class="header-right">
           <a href="./create.php" class="login">作成</a>
         </div>

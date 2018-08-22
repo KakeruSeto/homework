@@ -13,7 +13,7 @@
   }
 
   $pdo = connectDB();
-  $sql = "SELECT * FROM users_p WHERE username = :username";
+  $sql = "SELECT * FROM b_users WHERE username = :username";
   $statement = $pdo->prepare($sql);
   $statement->execute([
     ':username' => $username,
